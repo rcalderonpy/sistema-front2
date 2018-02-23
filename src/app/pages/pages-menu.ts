@@ -138,6 +138,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
+    title: 'Clientes',
+    icon: 'ion-person-stalker',
+    children: [
+      {
+        title: 'Lista Clientes',
+        link: '/pages/clientes/lista-clientes',
+      },
+    ],
+  },
+  {
     title: 'Auth',
     icon: 'nb-locked',
     children: [
